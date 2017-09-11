@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'EngSciNotebook' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for MAT292
+  pod 'iosMath'
+  pod 'CorePlot', :git => 'https://github.com/core-plot/core-plot.git'
+
+  target 'EngSciNotebookTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'EngSciNotebookUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

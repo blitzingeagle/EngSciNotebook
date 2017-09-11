@@ -1,0 +1,24 @@
+PODS:
+  - CorePlot (2.2)
+  - iosMath (0.9.4)
+
+DEPENDENCIES:
+  - CorePlot (from `https://github.com/core-plot/core-plot.git`)
+  - iosMath
+
+EXTERNAL SOURCES:
+  CorePlot:
+    :git: https://github.com/core-plot/core-plot.git
+
+CHECKOUT OPTIONS:
+  CorePlot:
+    :commit: 88d12aa3951ce7b2c7869f5b21f1b362b04b4ddf
+    :git: https://github.com/core-plot/core-plot.git
+
+SPEC CHECKSUMS:
+  CorePlot: cbe0c6e14220705e32e06a89c7d6a5a908b7d7d8
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+
+PODFILE CHECKSUM: 96b2561546b115f32efe2bd7206adb134e0cfc84
+
+COCOAPODS: 1.2.1

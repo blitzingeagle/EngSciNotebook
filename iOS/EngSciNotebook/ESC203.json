@@ -1,0 +1,18 @@
+{
+    "title":"ESC203",
+    "sections":[
+        {
+            "heading":"Lectures",
+            "items":[
+                {
+                    "name":"Lecture 1",
+                    "contents":[
+                    ]
+                },
+                {
+                    "name":"Lecture 2"
+                }
+            ]
+        }
+    ]
+}

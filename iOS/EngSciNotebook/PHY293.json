@@ -1,0 +1,53 @@
+{
+    "title":"PHY293",
+    "sections":[
+        {
+            "heading":"Course Information",
+            "items":[
+                {
+                    "name":"Marking Scheme",
+                    "contents":[
+                        {
+                            "type":"label",
+                            "text":"Tutorial Quizzes, 4 total (20 min) - 10%"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"Quiz #1 week of Sep 25 \nQuiz #2 week of Oct 23"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Labs - 20%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Two term tests - 30%"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"Part A Oct 16 \nPart B mid to end Nov"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Final Exam (2.5 hr) - 40%"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading":"Lectures",
+            "items":[
+                {
+                    "name":"Lecture 1",
+                    "contents":[
+
+                    ]
+                },
+                {
+                    "name":"Lecture 2"
+                }
+            ]
+        }
+    ]
+}

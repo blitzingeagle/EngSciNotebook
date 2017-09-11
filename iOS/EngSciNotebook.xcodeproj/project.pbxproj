@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DC15ECB7C7D200C9166DE13 /* libPods-EngSciNotebookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A39440936AB98073A35AF721 /* libPods-EngSciNotebookTests.a */; };
+		5B30132A55ED4B2E4A6BE3A1 /* libPods-EngSciNotebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4E455A335C1EACC41FA555 /* libPods-EngSciNotebook.a */; };
+		A56A29D11F623C8A00106410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A29D01F623C8A00106410 /* main.m */; };
+		A56A29D41F623C8A00106410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A29D31F623C8A00106410 /* AppDelegate.m */; };
+		A56A29D71F623C8A00106410 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A29D61F623C8A00106410 /* MasterViewController.m */; };
+		A56A29DA1F623C8A00106410 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A29D91F623C8A00106410 /* DetailViewController.m */; };
+		A56A29DD1F623C8A00106410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56A29DB1F623C8A00106410 /* Main.storyboard */; };
+		A56A29DF1F623C8A00106410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56A29DE1F623C8A00106410 /* Assets.xcassets */; };
+		A56A29E21F623C8A00106410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56A29E01F623C8A00106410 /* LaunchScreen.storyboard */; };
+		A56A29ED1F623C8A00106410 /* EngSciNotebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A29EC1F623C8A00106410 /* EngSciNotebookTests.m */; };
+		A56A29F81F623C8A00106410 /* EngSciNotebookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A29F71F623C8A00106410 /* EngSciNotebookUITests.m */; };
+		A56A2A061F62CD2000106410 /* MAT292.json in Resources */ = {isa = PBXBuildFile; fileRef = A56A2A051F62CD2000106410 /* MAT292.json */; };
+		A56A2A151F65D94700106410 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56A2A141F65D94700106410 /* Menu.storyboard */; };
+		A56A2A181F65DA8300106410 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A2A171F65DA8300106410 /* MenuViewController.m */; };
+		A56A2A201F65FCF700106410 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A2A1F1F65FCF700106410 /* GridLayout.swift */; };
+		A56A2A221F66060000106410 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A2A211F66060000106410 /* CourseCell.swift */; };
+		A56A2A241F660A7D00106410 /* EngSciNotebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A56A2A231F660A7D00106410 /* EngSciNotebook.png */; };
+		A56A2A261F660D7200106410 /* AER210.json in Resources */ = {isa = PBXBuildFile; fileRef = A56A2A251F660D7200106410 /* AER210.json */; };
+		A56A2A281F660DE200106410 /* ESC203.json in Resources */ = {isa = PBXBuildFile; fileRef = A56A2A271F660DE200106410 /* ESC203.json */; };
+		A56A2A2E1F660E4600106410 /* PHY293.json in Resources */ = {isa = PBXBuildFile; fileRef = A56A2A2D1F660E4600106410 /* PHY293.json */; };
+		A56A2A321F660E6C00106410 /* ECE253.json in Resources */ = {isa = PBXBuildFile; fileRef = A56A2A311F660E6C00106410 /* ECE253.json */; };
+		A56A2A341F660E8000106410 /* CHE260.json in Resources */ = {isa = PBXBuildFile; fileRef = A56A2A331F660E8000106410 /* CHE260.json */; };
+		D631301CB1EE56E838C2FF72 /* libPods-EngSciNotebookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14624A8917F1AD97CDB61794 /* libPods-EngSciNotebookUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A56A29E91F623C8A00106410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56A29C41F623C8A00106410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56A29CB1F623C8A00106410;
+			remoteInfo = EngSciNotebook;
+		};
+		A56A29F41F623C8A00106410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56A29C41F623C8A00106410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56A29CB1F623C8A00106410;
+			remoteInfo = EngSciNotebook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1288384DA3B3E2E1D9BB4B1D /* Pods-EngSciNotebookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebookTests/Pods-EngSciNotebookTests.release.xcconfig"; sourceTree = "<group>"; };
+		14624A8917F1AD97CDB61794 /* libPods-EngSciNotebookUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EngSciNotebookUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CED7E8CEB65A2BC7AFC071 /* Pods-EngSciNotebookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebookUITests/Pods-EngSciNotebookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		356DC0BA54F67E8065A67F6A /* Pods-EngSciNotebookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebookTests/Pods-EngSciNotebookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E3CC5C97A764D534BBCF94E /* Pods-EngSciNotebookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebookUITests/Pods-EngSciNotebookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F4E455A335C1EACC41FA555 /* libPods-EngSciNotebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EngSciNotebook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747535D592022B4A05B8F52E /* Pods-EngSciNotebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebook/Pods-EngSciNotebook.release.xcconfig"; sourceTree = "<group>"; };
+		7CF69FDCA5BE4924C69EF279 /* Pods-EngSciNotebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebook/Pods-EngSciNotebook.release.xcconfig"; sourceTree = "<group>"; };
+		8089B72C2890E52B6D8EF085 /* Pods-EngSciNotebookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebookTests/Pods-EngSciNotebookTests.release.xcconfig"; sourceTree = "<group>"; };
+		A39440936AB98073A35AF721 /* libPods-EngSciNotebookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EngSciNotebookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56A29CC1F623C8A00106410 /* EngSciNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngSciNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56A29D01F623C8A00106410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A56A29D21F623C8A00106410 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A56A29D31F623C8A00106410 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A56A29D51F623C8A00106410 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A56A29D61F623C8A00106410 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A56A29D81F623C8A00106410 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A56A29D91F623C8A00106410 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A56A29DC1F623C8A00106410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A56A29DE1F623C8A00106410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A56A29E11F623C8A00106410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A56A29E31F623C8A00106410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56A29E81F623C8A00106410 /* EngSciNotebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngSciNotebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56A29EC1F623C8A00106410 /* EngSciNotebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngSciNotebookTests.m; sourceTree = "<group>"; };
+		A56A29EE1F623C8A00106410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56A29F31F623C8A00106410 /* EngSciNotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngSciNotebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56A29F71F623C8A00106410 /* EngSciNotebookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngSciNotebookUITests.m; sourceTree = "<group>"; };
+		A56A29F91F623C8A00106410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56A2A051F62CD2000106410 /* MAT292.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MAT292.json; sourceTree = "<group>"; };
+		A56A2A141F65D94700106410 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		A56A2A161F65D9EF00106410 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A56A2A171F65DA8300106410 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		A56A2A1E1F65FCF700106410 /* EngSciNotebook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EngSciNotebook-Bridging-Header.h"; sourceTree = "<group>"; };
+		A56A2A1F1F65FCF700106410 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		A56A2A211F66060000106410 /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		A56A2A231F660A7D00106410 /* EngSciNotebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EngSciNotebook.png; sourceTree = "<group>"; };
+		A56A2A251F660D7200106410 /* AER210.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AER210.json; sourceTree = "<group>"; };
+		A56A2A271F660DE200106410 /* ESC203.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ESC203.json; sourceTree = "<group>"; };
+		A56A2A2D1F660E4600106410 /* PHY293.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PHY293.json; sourceTree = "<group>"; };
+		A56A2A311F660E6C00106410 /* ECE253.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECE253.json; sourceTree = "<group>"; };
+		A56A2A331F660E8000106410 /* CHE260.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CHE260.json; sourceTree = "<group>"; };
+		AC907A2D4129E32335E6E29A /* Pods-EngSciNotebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebook/Pods-EngSciNotebook.debug.xcconfig"; sourceTree = "<group>"; };
+		C68036DC45822213768472FA /* Pods-EngSciNotebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebook/Pods-EngSciNotebook.debug.xcconfig"; sourceTree = "<group>"; };
+		D8C491A5A71976E04492A8D7 /* Pods-EngSciNotebookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebookTests/Pods-EngSciNotebookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E494425D98906693636C94F6 /* Pods-EngSciNotebookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebookUITests/Pods-EngSciNotebookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA2C8EB1A7A4394CA4A046BC /* Pods-EngSciNotebookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngSciNotebookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngSciNotebookUITests/Pods-EngSciNotebookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A56A29C91F623C8A00106410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B30132A55ED4B2E4A6BE3A1 /* libPods-EngSciNotebook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A29E51F623C8A00106410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC15ECB7C7D200C9166DE13 /* libPods-EngSciNotebookTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A29F01F623C8A00106410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D631301CB1EE56E838C2FF72 /* libPods-EngSciNotebookUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E1C97AEE069912BA50F451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C68036DC45822213768472FA /* Pods-EngSciNotebook.debug.xcconfig */,
+				747535D592022B4A05B8F52E /* Pods-EngSciNotebook.release.xcconfig */,
+				D8C491A5A71976E04492A8D7 /* Pods-EngSciNotebookTests.debug.xcconfig */,
+				8089B72C2890E52B6D8EF085 /* Pods-EngSciNotebookTests.release.xcconfig */,
+				3E3CC5C97A764D534BBCF94E /* Pods-EngSciNotebookUITests.debug.xcconfig */,
+				34CED7E8CEB65A2BC7AFC071 /* Pods-EngSciNotebookUITests.release.xcconfig */,
+				AC907A2D4129E32335E6E29A /* Pods-EngSciNotebook.debug.xcconfig */,
+				7CF69FDCA5BE4924C69EF279 /* Pods-EngSciNotebook.release.xcconfig */,
+				356DC0BA54F67E8065A67F6A /* Pods-EngSciNotebookTests.debug.xcconfig */,
+				1288384DA3B3E2E1D9BB4B1D /* Pods-EngSciNotebookTests.release.xcconfig */,
+				FA2C8EB1A7A4394CA4A046BC /* Pods-EngSciNotebookUITests.debug.xcconfig */,
+				E494425D98906693636C94F6 /* Pods-EngSciNotebookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46DF577C6040A5CFB5CF4237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E455A335C1EACC41FA555 /* libPods-EngSciNotebook.a */,
+				A39440936AB98073A35AF721 /* libPods-EngSciNotebookTests.a */,
+				14624A8917F1AD97CDB61794 /* libPods-EngSciNotebookUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A56A29C31F623C8A00106410 = {
+			isa = PBXGroup;
+			children = (
+				A56A29CE1F623C8A00106410 /* EngSciNotebook */,
+				A56A29EB1F623C8A00106410 /* EngSciNotebookTests */,
+				A56A29F61F623C8A00106410 /* EngSciNotebookUITests */,
+				A56A29CD1F623C8A00106410 /* Products */,
+				21E1C97AEE069912BA50F451 /* Pods */,
+				46DF577C6040A5CFB5CF4237 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A56A29CD1F623C8A00106410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56A29CC1F623C8A00106410 /* EngSciNotebook.app */,
+				A56A29E81F623C8A00106410 /* EngSciNotebookTests.xctest */,
+				A56A29F31F623C8A00106410 /* EngSciNotebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56A29CE1F623C8A00106410 /* EngSciNotebook */ = {
+			isa = PBXGroup;
+			children = (
+				A56A29D21F623C8A00106410 /* AppDelegate.h */,
+				A56A29D31F623C8A00106410 /* AppDelegate.m */,
+				A56A29D51F623C8A00106410 /* MasterViewController.h */,
+				A56A29D61F623C8A00106410 /* MasterViewController.m */,
+				A56A29D81F623C8A00106410 /* DetailViewController.h */,
+				A56A29D91F623C8A00106410 /* DetailViewController.m */,
+				A56A2A161F65D9EF00106410 /* MenuViewController.h */,
+				A56A2A171F65DA8300106410 /* MenuViewController.m */,
+				A56A2A1F1F65FCF700106410 /* GridLayout.swift */,
+				A56A2A211F66060000106410 /* CourseCell.swift */,
+				A56A29E01F623C8A00106410 /* LaunchScreen.storyboard */,
+				A56A2A141F65D94700106410 /* Menu.storyboard */,
+				A56A29DB1F623C8A00106410 /* Main.storyboard */,
+				A56A29DE1F623C8A00106410 /* Assets.xcassets */,
+				A56A29E31F623C8A00106410 /* Info.plist */,
+				A56A29CF1F623C8A00106410 /* Supporting Files */,
+				A56A2A051F62CD2000106410 /* MAT292.json */,
+				A56A2A251F660D7200106410 /* AER210.json */,
+				A56A2A271F660DE200106410 /* ESC203.json */,
+				A56A2A2D1F660E4600106410 /* PHY293.json */,
+				A56A2A311F660E6C00106410 /* ECE253.json */,
+				A56A2A331F660E8000106410 /* CHE260.json */,
+				A56A2A231F660A7D00106410 /* EngSciNotebook.png */,
+				A56A2A1E1F65FCF700106410 /* EngSciNotebook-Bridging-Header.h */,
+			);
+			path = EngSciNotebook;
+			sourceTree = "<group>";
+		};
+		A56A29CF1F623C8A00106410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A56A29D01F623C8A00106410 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A56A29EB1F623C8A00106410 /* EngSciNotebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				A56A29EC1F623C8A00106410 /* EngSciNotebookTests.m */,
+				A56A29EE1F623C8A00106410 /* Info.plist */,
+			);
+			path = EngSciNotebookTests;
+			sourceTree = "<group>";
+		};
+		A56A29F61F623C8A00106410 /* EngSciNotebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A56A29F71F623C8A00106410 /* EngSciNotebookUITests.m */,
+				A56A29F91F623C8A00106410 /* Info.plist */,
+			);
+			path = EngSciNotebookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A56A29CB1F623C8A00106410 /* EngSciNotebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56A29FC1F623C8A00106410 /* Build configuration list for PBXNativeTarget "EngSciNotebook" */;
+			buildPhases = (
+				996A95B7167E7D0FDD06146C /* [CP] Check Pods Manifest.lock */,
+				A56A29C81F623C8A00106410 /* Sources */,
+				A56A29C91F623C8A00106410 /* Frameworks */,
+				A56A29CA1F623C8A00106410 /* Resources */,
+				6DFE8B51FA0224778BD302F5 /* [CP] Embed Pods Frameworks */,
+				B31796BFFB56770F3E198792 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EngSciNotebook;
+			productName = EngSciNotebook;
+			productReference = A56A29CC1F623C8A00106410 /* EngSciNotebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A56A29E71F623C8A00106410 /* EngSciNotebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56A29FF1F623C8A00106410 /* Build configuration list for PBXNativeTarget "EngSciNotebookTests" */;
+			buildPhases = (
+				195909799F4C7DF943D6F7EB /* [CP] Check Pods Manifest.lock */,
+				A56A29E41F623C8A00106410 /* Sources */,
+				A56A29E51F623C8A00106410 /* Frameworks */,
+				A56A29E61F623C8A00106410 /* Resources */,
+				283357716ACED19585F9E68F /* [CP] Embed Pods Frameworks */,
+				55DBA5D243FEAB873ABDB50A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56A29EA1F623C8A00106410 /* PBXTargetDependency */,
+			);
+			name = EngSciNotebookTests;
+			productName = EngSciNotebookTests;
+			productReference = A56A29E81F623C8A00106410 /* EngSciNotebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A56A29F21F623C8A00106410 /* EngSciNotebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56A2A021F623C8A00106410 /* Build configuration list for PBXNativeTarget "EngSciNotebookUITests" */;
+			buildPhases = (
+				42EF3A46DFA8485276BD36CD /* [CP] Check Pods Manifest.lock */,
+				A56A29EF1F623C8A00106410 /* Sources */,
+				A56A29F01F623C8A00106410 /* Frameworks */,
+				A56A29F11F623C8A00106410 /* Resources */,
+				4B68DBED676C9C5ABFCB6FE3 /* [CP] Embed Pods Frameworks */,
+				B5490C1E79463F82A33A3F9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56A29F51F623C8A00106410 /* PBXTargetDependency */,
+			);
+			name = EngSciNotebookUITests;
+			productName = EngSciNotebookUITests;
+			productReference = A56A29F31F623C8A00106410 /* EngSciNotebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A56A29C41F623C8A00106410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Morris Chen";
+				TargetAttributes = {
+					A56A29CB1F623C8A00106410 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JC5UA2XZJW;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					A56A29E71F623C8A00106410 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JC5UA2XZJW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A56A29CB1F623C8A00106410;
+					};
+					A56A29F21F623C8A00106410 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JC5UA2XZJW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A56A29CB1F623C8A00106410;
+					};
+				};
+			};
+			buildConfigurationList = A56A29C71F623C8A00106410 /* Build configuration list for PBXProject "EngSciNotebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A56A29C31F623C8A00106410;
+			productRefGroup = A56A29CD1F623C8A00106410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56A29CB1F623C8A00106410 /* EngSciNotebook */,
+				A56A29E71F623C8A00106410 /* EngSciNotebookTests */,
+				A56A29F21F623C8A00106410 /* EngSciNotebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A56A29CA1F623C8A00106410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A2A2E1F660E4600106410 /* PHY293.json in Resources */,
+				A56A2A151F65D94700106410 /* Menu.storyboard in Resources */,
+				A56A2A321F660E6C00106410 /* ECE253.json in Resources */,
+				A56A29E21F623C8A00106410 /* LaunchScreen.storyboard in Resources */,
+				A56A29DF1F623C8A00106410 /* Assets.xcassets in Resources */,
+				A56A2A281F660DE200106410 /* ESC203.json in Resources */,
+				A56A29DD1F623C8A00106410 /* Main.storyboard in Resources */,
+				A56A2A241F660A7D00106410 /* EngSciNotebook.png in Resources */,
+				A56A2A341F660E8000106410 /* CHE260.json in Resources */,
+				A56A2A261F660D7200106410 /* AER210.json in Resources */,
+				A56A2A061F62CD2000106410 /* MAT292.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A29E61F623C8A00106410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A29F11F623C8A00106410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		195909799F4C7DF943D6F7EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		283357716ACED19585F9E68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngSciNotebookTests/Pods-EngSciNotebookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EF3A46DFA8485276BD36CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B68DBED676C9C5ABFCB6FE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngSciNotebookUITests/Pods-EngSciNotebookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55DBA5D243FEAB873ABDB50A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngSciNotebookTests/Pods-EngSciNotebookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFE8B51FA0224778BD302F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngSciNotebook/Pods-EngSciNotebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		996A95B7167E7D0FDD06146C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B31796BFFB56770F3E198792 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngSciNotebook/Pods-EngSciNotebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5490C1E79463F82A33A3F9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngSciNotebookUITests/Pods-EngSciNotebookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A56A29C81F623C8A00106410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A29D41F623C8A00106410 /* AppDelegate.m in Sources */,
+				A56A29D71F623C8A00106410 /* MasterViewController.m in Sources */,
+				A56A29D11F623C8A00106410 /* main.m in Sources */,
+				A56A2A221F66060000106410 /* CourseCell.swift in Sources */,
+				A56A2A201F65FCF700106410 /* GridLayout.swift in Sources */,
+				A56A29DA1F623C8A00106410 /* DetailViewController.m in Sources */,
+				A56A2A181F65DA8300106410 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A29E41F623C8A00106410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A29ED1F623C8A00106410 /* EngSciNotebookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A29EF1F623C8A00106410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A29F81F623C8A00106410 /* EngSciNotebookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A56A29EA1F623C8A00106410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56A29CB1F623C8A00106410 /* EngSciNotebook */;
+			targetProxy = A56A29E91F623C8A00106410 /* PBXContainerItemProxy */;
+		};
+		A56A29F51F623C8A00106410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56A29CB1F623C8A00106410 /* EngSciNotebook */;
+			targetProxy = A56A29F41F623C8A00106410 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A56A29DB1F623C8A00106410 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56A29DC1F623C8A00106410 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A56A29E01F623C8A00106410 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56A29E11F623C8A00106410 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A56A29FA1F623C8A00106410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A56A29FB1F623C8A00106410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A56A29FD1F623C8A00106410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC907A2D4129E32335E6E29A /* Pods-EngSciNotebook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EngSciNotebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.EngSciNotebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EngSciNotebook/EngSciNotebook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A56A29FE1F623C8A00106410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF69FDCA5BE4924C69EF279 /* Pods-EngSciNotebook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EngSciNotebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.EngSciNotebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EngSciNotebook/EngSciNotebook-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A56A2A001F623C8A00106410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356DC0BA54F67E8065A67F6A /* Pods-EngSciNotebookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = EngSciNotebookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.EngSciNotebookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EngSciNotebook.app/EngSciNotebook";
+			};
+			name = Debug;
+		};
+		A56A2A011F623C8A00106410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1288384DA3B3E2E1D9BB4B1D /* Pods-EngSciNotebookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = EngSciNotebookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.EngSciNotebookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EngSciNotebook.app/EngSciNotebook";
+			};
+			name = Release;
+		};
+		A56A2A031F623C8A00106410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2C8EB1A7A4394CA4A046BC /* Pods-EngSciNotebookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = EngSciNotebookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.EngSciNotebookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EngSciNotebook;
+			};
+			name = Debug;
+		};
+		A56A2A041F623C8A00106410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E494425D98906693636C94F6 /* Pods-EngSciNotebookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = EngSciNotebookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.EngSciNotebookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EngSciNotebook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A56A29C71F623C8A00106410 /* Build configuration list for PBXProject "EngSciNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56A29FA1F623C8A00106410 /* Debug */,
+				A56A29FB1F623C8A00106410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56A29FC1F623C8A00106410 /* Build configuration list for PBXNativeTarget "EngSciNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56A29FD1F623C8A00106410 /* Debug */,
+				A56A29FE1F623C8A00106410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56A29FF1F623C8A00106410 /* Build configuration list for PBXNativeTarget "EngSciNotebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56A2A001F623C8A00106410 /* Debug */,
+				A56A2A011F623C8A00106410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56A2A021F623C8A00106410 /* Build configuration list for PBXNativeTarget "EngSciNotebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56A2A031F623C8A00106410 /* Debug */,
+				A56A2A041F623C8A00106410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A56A29C41F623C8A00106410 /* Project object */;
+}

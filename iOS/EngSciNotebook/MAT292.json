@@ -1,0 +1,185 @@
+{
+    "title":"MAT292",
+    "sections":[
+        {
+            "heading":"Course Information",
+            "items":[
+                {
+                    "name":"Professor Stinchcombe",
+                    "contents":[
+                        {
+                            "type":"label",
+                            "text":"Dr. Adam Stinchcombe"
+                        },
+                        {
+                            "type":"label",
+                            "text":"stinch@math.toronto.edu"
+                        },
+                        {
+                            "type":"label",
+                            "text":"BA 6224"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"Office Hours: \n\tMon 14:00-15:00 \n\tFri 09:00-10:00"
+                        }
+                    ]
+                },
+                {
+                    "name":"Marking Scheme",
+                    "contents":[
+                        {
+                            "type":"label",
+                            "text":"HW (WebWork) - 5%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Matlab Labs - 5%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Term Test (lower) - 15%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Term Test (higher) - 25%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Final Exam - 40%"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading":"Lectures",
+            "items":[
+                {
+                    "name":"Lecture 1",
+                    "contents":[
+                        {
+                            "type":"label",
+                            "text":"§1.1 Mathematical Models, Solutions, and Direction Fields"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"What is a differential equation? DE \n\tA relationship between a function (input and output values) and its derivatives."
+                        },
+                        {
+                            "type":"textview",
+                            "text":"The order of a DE is the highest number derivative appearing."
+                        },
+                        {
+                            "type":"textview",
+                            "text":"1) 1st order, linear, non-autonomous ODE"
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"\\frac{dy}{dt}+ty+1=0"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"2) algebraic equation"
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"y^2+t^y=0"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"3) 2nd order, non-linear ODE"
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"y\\frac{d^2y}{dt^2}+t=0"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"4) linear delay DE"
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"f\\prime(t)+t^2-f(t-1)=0"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"5) partial differential equation, multiple independent variables"
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"\\frac{\\partial^2 y}{\\partial x^2}=\\frac{\\partial y}{\\partial t}, y(x,t)"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"A first order ODE has the generic form"
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"\\phi(t,y(t),y\\prime(t))=0"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"Immediate Questions: \n\tIs there such a function y(t)? existence \n\tIs it the only one? uniqueness \n\tHow do you find it? solution approach"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"Countless fundamental laws (all sciences, engineering, economics, finance, etc) are expressed as differential equations."
+                        },
+                        {
+                            "type":"textview",
+                            "text":"eg. Newton's 2nd Law \"Force\""
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"\\frac{d}{dt}(m \\frac{dy}{dt})=F(t,y,\\frac{dy}{dt})"
+                        },
+                        {
+                            "type":"textview",
+                            "text":""
+                        },
+                        {
+                            "type":"label",
+                            "text":"Direction Fields"
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"\\frac{dy}{dt}=f(t,y)"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"gives the slope of a solution at end point t, y"
+                        },
+                        {
+                            "type":"textview",
+                            "text":"Computer approach: create a table of values, and find solutions what pass through specific points."
+                        },
+                        {
+                            "type":"textview",
+                            "text":"Human approach: Solve for collections of points with a given slope."
+                        },
+                        {
+                            "type":"textview",
+                            "text":"eg."
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"\\frac{dy}{dt}=yt"
+                        },
+                        {
+                            "type":"math_label",
+                            "latex":"\\frac{dy}{dt}=C, y=\\frac{C}{t}"
+                        },
+                        {
+                            "type":"textview",
+                            "text":""
+                        }
+                    ]
+                },
+                {
+                    "name":"Lecture 2"
+                }
+            ]
+        }
+    ]
+}

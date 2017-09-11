@@ -1,0 +1,18 @@
+{
+    "title":"ECE253",
+    "sections":[
+        {
+            "heading":"Lectures",
+            "items":[
+                {
+                    "name":"Lecture 1",
+                    "contents":[
+                    ]
+                },
+                {
+                    "name":"Lecture 2"
+                }
+            ]
+        }
+    ]
+}

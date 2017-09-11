@@ -1,0 +1,70 @@
+{
+    "title":"CHE260",
+    "sections":[
+        {
+            "heading":"Course Information",
+            "items":[
+                {
+                    "name":"Professor Chandra",
+                    "contents":[
+                        {
+                            "type":"label",
+                            "text":"Professor Sanjeev Chandra"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Office: BA 8254"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Telephone: 416-978-5742"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Email: chandra@mie.utoronto.ca"
+                        }
+                    ]
+                },
+                {
+                    "name":"Marking Scheme",
+                    "contents":[
+                        {
+                            "type":"label",
+                            "text":"Lab Reports (2) - 10%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Quiz 1 (Sep 28) - 15%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Mid-Term Exam (Nov 2) - 30%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Quiz 2 (Nov 23) - 15%"
+                        },
+                        {
+                            "type":"label",
+                            "text":"Final Exam - 30%"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading":"Lectures",
+            "items":[
+                {
+                    "name":"Lecture 1",
+                    "contents":[
+
+                    ]
+                },
+                {
+                    "name":"Lecture 2"
+                }
+            ]
+        }
+    ]
+}

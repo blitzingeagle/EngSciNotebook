@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fw9-Uk-JhJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--NΨ Notebook-->
+        <scene sceneID="O44-ay-NK7">
+            <objects>
+                <viewController id="P0y-iP-QZ1" customClass="MenuViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rpc-f9-Eoj"/>
+                        <viewControllerLayoutGuide type="bottom" id="FXl-vn-tTV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CTb-FY-ifb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created By: M. J. Chen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfU-SG-W9l">
+                                <rect key="frame" x="0.0" y="64" width="375" height="21"/>
+                                <color key="backgroundColor" red="0.52096768749638478" green="0.70567180903698901" blue="0.9381505840926001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7e7-Aa-gyH">
+                                <rect key="frame" x="0.0" y="85" width="375" height="582"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="csO-C4-osy">
+                                    <size key="itemSize" width="234" height="239"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="courseCell" id="PIO-WT-gky" customClass="CourseCell" customModule="EngSciNotebook" customModuleProvider="target">
+                                        <rect key="frame" x="70.5" y="0.0" width="234" height="239"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="234" height="239"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sef-IW-4IN">
+                                                    <rect key="frame" x="0.0" y="0.0" width="234" height="239"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Course Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ip9-fa-vlC">
+                                                    <rect key="frame" x="0.0" y="218" width="234" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="sef-IW-4IN" firstAttribute="leading" secondItem="PIO-WT-gky" secondAttribute="leading" id="199-rD-OKP"/>
+                                            <constraint firstAttribute="trailing" secondItem="sef-IW-4IN" secondAttribute="trailing" id="PRH-r0-2Wl"/>
+                                            <constraint firstItem="sef-IW-4IN" firstAttribute="top" secondItem="PIO-WT-gky" secondAttribute="top" id="U4z-Nh-Kju"/>
+                                            <constraint firstAttribute="bottom" secondItem="Ip9-fa-vlC" secondAttribute="bottom" id="UxX-sc-d1g"/>
+                                            <constraint firstItem="Ip9-fa-vlC" firstAttribute="width" secondItem="sef-IW-4IN" secondAttribute="width" id="YSr-lX-LUH"/>
+                                            <constraint firstItem="Ip9-fa-vlC" firstAttribute="centerX" secondItem="sef-IW-4IN" secondAttribute="centerX" id="oRe-WL-AMa"/>
+                                            <constraint firstAttribute="bottom" secondItem="sef-IW-4IN" secondAttribute="bottom" id="rxs-ir-ESH"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="courseCode" destination="Ip9-fa-vlC" id="3LO-vV-Q3u"/>
+                                            <outlet property="imageView" destination="sef-IW-4IN" id="bFF-e3-Rcs"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="P0y-iP-QZ1" id="9vk-NY-gLV"/>
+                                    <outlet property="delegate" destination="P0y-iP-QZ1" id="r80-CC-y5f"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FXl-vn-tTV" firstAttribute="top" secondItem="7e7-Aa-gyH" secondAttribute="bottom" id="52L-Wb-V5H"/>
+                            <constraint firstItem="7e7-Aa-gyH" firstAttribute="top" secondItem="cfU-SG-W9l" secondAttribute="bottom" id="6xb-hf-Gvb"/>
+                            <constraint firstItem="cfU-SG-W9l" firstAttribute="centerX" secondItem="CTb-FY-ifb" secondAttribute="centerX" id="aeT-yZ-u4Y"/>
+                            <constraint firstItem="7e7-Aa-gyH" firstAttribute="centerX" secondItem="CTb-FY-ifb" secondAttribute="centerX" id="bQc-br-6UG"/>
+                            <constraint firstItem="7e7-Aa-gyH" firstAttribute="width" secondItem="CTb-FY-ifb" secondAttribute="width" id="drX-Qr-7rl"/>
+                            <constraint firstItem="cfU-SG-W9l" firstAttribute="top" secondItem="Rpc-f9-Eoj" secondAttribute="bottom" id="l9z-fO-LA8"/>
+                            <constraint firstItem="cfU-SG-W9l" firstAttribute="width" secondItem="CTb-FY-ifb" secondAttribute="width" id="wul-xB-JAB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="NΨ Notebook" id="LZd-od-Iwc"/>
+                    <connections>
+                        <outlet property="courseCollection" destination="7e7-Aa-gyH" id="48e-12-l4f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d94-kH-1QA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181.59999999999999" y="115.59220389805098"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="M4c-c7-Uzh">
+            <objects>
+                <navigationController id="fw9-Uk-JhJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wMD-xB-oWP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="P0y-iP-QZ1" kind="relationship" relationship="rootViewController" id="iEa-4c-WlP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bt9-ac-8Ha" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-650" y="117"/>
+        </scene>
+    </scenes>
+</document>
